@@ -229,6 +229,7 @@ public class EnglishSubtitleLocalization : ISubtitleLocalization
         { "WarningHUD", "Warning beep" },
         { "WarningHUD2", "Warning beep" },
         { "WarningHUD3", "Warning beep" },
+        { "VoiceCry", "Unknown Cries" },
     };
 
     public Dictionary<string, List<(float, string)>> DialogueTranslations => new(StringComparer.OrdinalIgnoreCase)
